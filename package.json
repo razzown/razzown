@@ -21,7 +21,7 @@
   "author": "BaseRecoder",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "npm:@queenanya/baileys",
+    "@adiwajshing/baileys": "npm:baileysv3",
     "@whiskeysockets/baileys": "npm:baileysv2",
     "@rasyaisrazz/baileys": "npm:baileys-md",
     "@adiwajshing/keyed-db": "^0.2.4",
