@@ -22,6 +22,8 @@
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+    "@whiskeysockets/baileys": "npm:baileysv2",
+    "@rasyaisrazz/baileys": "npm:baileys-md",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^4.2.4",
     "@hapi/boom": "^10.0.1",
@@ -143,4 +145,6 @@
   },
   "homepage": "https://github.com/razzown/razzown#readme"
   }
+  
+
   
