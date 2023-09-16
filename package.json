@@ -1,0 +1,66 @@
+{
+    "name": "Anonymous Creator",
+    "version": "0.7.0",
+    "description": "Script Bot Whatsapp By ArxzyDev",
+    "main": "index.js",
+    "type": "commonjs",
+  "scripts": {
+    "start": "node --max_old_space_size=8192 index.js",
+    "start2": "pm2 start 'node index.js' --name zel --exp-backoff-restart-delay=100 && pm2 logs zel"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "2023",
+    "wabase-md",
+    "base",
+    "baileys-md",
+    "bot",
+    "bot-md",
+    "multi-device"
+  ],
+    "author": "My-Hand-&-My-Brain",
+    "license": "MIT",
+    "dependencies": {
+        "@adiwajshing/baileys": "github:WhiskeySockets/Baileys",
+        "@adiwajshing/keyed-db": "^0.2.4",
+        "@bochilteam/scraper": "^4.2.4",
+        "@hapi/boom": "^10.0.1",
+        "awesome-phonenumber": "^5.9.0",
+        "axios": "^1.4.0",
+        "chalk": "^4.1.2",
+        "cheerio": "^1.0.0-rc.12",
+        "cookie": "^0.5.0",
+        "deepai": "^1.0.21",
+        "file-type": "^16.5.3",
+        "fluent-ffmpeg": "^2.1.2",
+        "form-data": "^4.0.0",
+        "fs-extra": "^11.1.1",
+        "human-readable": "^0.2.1",
+        "javascript-obfuscator": "^4.0.2",
+        "jimp": "^0.16.13",
+        "jsdom": "^22.1.0",
+        "moment-timezone": "^0.5.43",
+        "node-fetch": "^2.6.11",
+        "node-webpmux": "^3.1.7",
+        "performance-now": "^2.1.0",
+        "pino": "^8.14.1",
+        "qrcode-terminal": "0.12.0",
+        "scrape-primbon": "^1.1.0",
+        "set-cookie": "^0.0.4",
+        "translate-google-api": "^1.0.4"
+    },
+      "directories": {
+    "lib": "lib",
+    "src": "src",
+    "media": "media"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razzown/razzown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/razzown/razzown/issues"
+  },
+  "homepage": "https://github.com/razzown/razzown#readme"
+}
