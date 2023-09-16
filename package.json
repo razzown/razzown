@@ -131,7 +131,8 @@
   },
   "directories": {
     "lib": "lib",
-    "src": "src"
+    "src": "src",
+    "media": "media"
   },
   "repository": {
     "type": "git",
