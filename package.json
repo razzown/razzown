@@ -1,4 +1,4 @@
-{
+ {
   "name": "Razz-Recoder-Man",
   "version": "2.3.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
@@ -22,13 +22,13 @@
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "npm:baileysv3",
-    "@rasyaisrazz/keyed-db": "@adiwajshing/keyed-db",
+    "@rasyaisrazz/keyed-db": "npm:@adiwajshing/keyed-db",
     "@whiskeysockets/baileys": "npm:baileysv2",
-    "@whiskeysockets/keyed-db": "@adiwajshing/keyed-db",
+    "@whiskeysockets/keyed-db": "npm:@adiwajshing/keyed-db",
     "@rasyaisrazz/baileys": "npm:baileys-md",
     "@rasyav1/baileys": "npm:@ferdiz-afk/baileys",
-    "@rasyav1/keyed-db": "@adiwajshing/keyed-db",
-    "@adiwajshing/keyed-db": "@adiwajshing/keyed-db",
+    "@rasyav1/keyed-db": "npm:@adiwajshing/keyed-db",
+    "@adiwajshing/keyed-db": "npm:@adiwajshing/keyed-db",
     "@bochilteam/scraper": "^4.2.4",
     "@hapi/boom": "^10.0.1",
     "@mapbox/node-pre-gyp": "^1.0.11",
@@ -137,8 +137,9 @@
   },
   "directories": {
     "lib": "lib",
-    "src": "src"
-   
+    "src": "src",
+    "media": "media"
+    
   },
   "repository": {
     "type": "git",
